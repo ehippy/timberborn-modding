@@ -1,0 +1,39 @@
+{
+  "EntitySpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": ""
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Entity.Coyote.DisplayName",
+    "DescriptionLocKey": "Entity.Coyote.Description",
+    "FlavorDescriptionLocKey": "",
+    "Icon": "Entities/Coyote/CoyoteIcon"
+  },
+  "CritterWandererSpec": {
+    "MoveSpeed": 3.0,
+    "WanderRadius": 15.0,
+    "IdleTime": 2.0
+  },
+  "Children": {
+    "#Model": {
+      "TimbermeshSpec": {
+        "Model": "Entities/Coyote/Coyote.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [],
+        "SphereColliders": [],
+        "CapsuleColliders": [
+          {
+            "Center": {
+              "X": 0,
+              "Y": 0.4,
+              "Z": 0
+            },
+            "Radius": 0.3,
+            "Height": 0.8
+          }
+        ]
+      }
+    }
+  }
+}

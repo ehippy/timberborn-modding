@@ -1,0 +1,8 @@
+{
+  "Name": "Wildlife Mod",
+  "Version": "1.0.0.0",
+  "Id": "Critters.Wildlife",
+  "MinimumGameVersion": "1.0.0.0",
+  "Description": "Adds random wildlife roaming the map.",
+  "RequiredMods": []
+}

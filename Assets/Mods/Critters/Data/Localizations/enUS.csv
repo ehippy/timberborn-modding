@@ -1,0 +1,5 @@
+ID,Text,Comment
+Entity.Critter.DisplayName,Wild Critter,
+Entity.Critter.Description,A free-roaming creature exploring the map.
+Entity.Coyote.DisplayName,Coyote,
+Entity.Coyote.Description,A coyote wandering the wilderness. Fast and nervous.
